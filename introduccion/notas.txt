@@ -1,0 +1,5 @@
+Instalacion de angular cli, como pre requisito tener instalado node.js
+    - ejecutar en modo administrador npm install -g @angular/cli   
+
+Para saber si ya se instalo correctamente
+    -Ejecutamos ng version
