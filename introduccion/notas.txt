@@ -3,3 +3,20 @@ Instalacion de angular cli, como pre requisito tener instalado node.js
 
 Para saber si ya se instalo correctamente
     -Ejecutamos ng version
+
+Iniciar un proyeto en Angular
+    -Ejecutamos el comando ng new [nombre de proyecto]
+        -Se nos solicita si necesitamos el archivo de rutas configurado
+        -Se nos solicita si queremos CSS puro o algun pre procesadofa-rotate-180
+
+Para transpilar el codigo a js, montar un servidor con webpack y abrirlo en cuando se encuentre listo
+    -Ejecutamos ng serve -o
+
+Crear componentes de forma automatica
+    -Ejecutamos ng generate component [ruta]/[nombre-componente]
+    Nos crea una carpeta con el nombre del componente, dentro de la carpeta crea
+        -[componente].component.css (hoja de estilos)
+        -[componente].component.html (plantilla html)
+        -[componente].component.ts (Clase del componente)
+        -[componente].component.spec.ts (Archivo de pruebas)
+    Actualiza el modulo y agrega el componente
