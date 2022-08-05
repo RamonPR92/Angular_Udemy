@@ -20,3 +20,12 @@ Crear componentes de forma automatica
         -[componente].component.ts (Clase del componente)
         -[componente].component.spec.ts (Archivo de pruebas)
     Actualiza el modulo y agrega el componente
+
+
+Crear modulo de forma automatica
+    -Ejecutamos ng generate module [nombre-modulo]
+        -Genera la carpeta con la carpeta del modulo
+        -Genera el [nombre_modulo].module.ts con lo basico
+
+Generar los archivos para desplegar en el servidor
+    -Ejecutamos ng build [nombre-proyecto]

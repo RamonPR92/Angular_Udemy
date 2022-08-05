@@ -1,0 +1,22 @@
+
+<!-- El atributo ngModel nos ayuda a mappear un objeto o propiedad en nuestro codigo de ts 
+    [ngModel] apuntamos hacia el valor del objeto y el valor del input
+    [(ngModel)] lo mismo que arriba pero se asigna cada vez que cambie, como un evento de cambio -->
+
+<h1>Dragon Ball Z</h1>
+<hr>
+
+<div class="row">
+    <div class="col">
+        <!-- Pasa la propiedad personajes que esta en el ts del componente al sub componente -->
+        <!-- [personajes] apunta a la propiedad del ts del componente hijo -->
+        <!-- <app-personajes [personajes]="personajes"></app-personajes> -->
+        <app-personajes></app-personajes>
+    </div>
+
+    <div class="col">
+        <!-- Se suscribe al evento que es lanzado por el componente hijo -->
+        <!-- <app-agregar-personaje (nuevoPersonajeEvento)="agregarNuevoPersonaje($event)"></app-agregar-personaje> -->
+        <app-agregar-personaje></app-agregar-personaje>
+    </div>
+</div>
