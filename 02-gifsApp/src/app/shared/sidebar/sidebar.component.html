@@ -1,0 +1,13 @@
+<div class="bg-dark border-right p-3" id="sidebar">
+    <h3 class="text-light">
+        Gifs App
+    </h3>
+    <hr class="text-light">
+    <div class="list-group list-reset">
+        <!-- titlecase es un pipe o un adorno solo visual de angular, en este caso
+            pone la primer letra del elemento en mayuscula -->
+        <a (click)="cargarBusqueda(elemento)" *ngFor="let elemento of historial" href="#" class="list-group-item list-group-item-action">
+            {{elemento | titlecase}}
+        </a>
+    </div>
+</div>

@@ -1,0 +1,12 @@
+
+<!-- #txtBuscar es igual al id="txtBuscar" -->
+<!-- (keyup.enter)="buscar() 
+    Es un evento que sera lanzado cuando la tecla enter sea levantada despues de presionada,
+    esto llama a un metodo llamado buscar -->
+
+<h5>Buscar:</h5>
+<input type="text" 
+class="form-control" 
+placeholder="Buscar gif..."
+(keyup.enter)="buscar()"
+#txtBuscar> 

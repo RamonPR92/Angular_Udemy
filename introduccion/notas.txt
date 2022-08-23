@@ -29,3 +29,5 @@ Crear modulo de forma automatica
 
 Generar los archivos para desplegar en el servidor
     -Ejecutamos ng build [nombre-proyecto]
+
+    GIF API KEY: y2wVvnZhWCgjMVOILv5ZyIvDmRpMCt6O
